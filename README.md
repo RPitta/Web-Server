@@ -12,8 +12,6 @@ The web server:
 - Prepares and then sends a response to the web browser which then displays the content being requested. If the request is invalid, the response sends
   an appropriate error message
 
-***
-
 ## Usage
 ### Compiling
 `gcc -o server server.c`
