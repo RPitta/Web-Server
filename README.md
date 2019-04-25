@@ -14,7 +14,7 @@ The web server:
 
 ## Usage
 ### Compiling
-`gcc -o server server.c`
+`gcc -pthread -o server server.c`
 
 ### Running
 `./server <an available port number>`
